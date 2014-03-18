@@ -7,7 +7,7 @@ $(document).ready(function() {
     });*/
 
     function addItem() {
-        items = Array('wow', 'such donate', 'amaze', 'much self-less', 'awesome', 'so greater good', 'how medical', 'plz dig', 'such hash', 'many coins', 'such profit', 'WOW');
+        items = Array('wow', 'such donate', 'amaze', 'much self-less', 'awesome', 'such greater good', 'how medical', 'plz halp', 'life-saving shibe', 'so red cross', 'such non-profit');
         docHeight = $(document).innerHeight();
         docWidth = $(document).innerWidth()
         text = items[Math.floor(Math.random() * items.length)];
