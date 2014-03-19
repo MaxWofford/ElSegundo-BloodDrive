@@ -104,23 +104,28 @@
     <div>
 
     <!--Embeded google maps-->
-      <div class="panel">
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:45%;"><div id="gmap_canvas" style="height:500px;width:100%;"></div><a class="google-map-code" href="http://www.embed-google-map.com/de/" id="get-map-data">http://www.embed-google-map.com/de/</a><iframe src="http://www.embed-google-map.com/map-embed.php"></iframe><a class="google-map-data" href="http://www.staubers.de" id="get-map-data">meine webseite</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(33.919605,-118.41277300000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.919605, -118.41277300000002)});infowindow = new google.maps.InfoWindow({content:"<div style='position:relative;line-height:1.34;overflow:hidden;white-space:nowrap;display:block;'><div style='margin-bottom:2px;font-weight:500;'>Scout House</div><span>325 Grand Ave <br> 90245 El Segundo</span></div>" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    <div class="row">
+      <div class="large-6 columns">
 
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:100%;"><div id="gmap_canvas" style="height:500px;width:100%;"></div><a class="google-map-code" href="http://www.embed-google-map.com/de/" id="get-map-data">http://www.embed-google-map.com/de/</a><iframe src="http://www.embed-google-map.com/map-embed.php"></iframe><a class="google-map-data" href="http://www.staubers.de" id="get-map-data">meine webseite</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(33.919605,-118.41277300000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.919605, -118.41277300000002)});infowindow = new google.maps.InfoWindow({content:"<div style='position:relative;line-height:1.34;overflow:hidden;white-space:nowrap;display:block;'><div style='margin-bottom:2px;font-weight:500;'>Scout House</div><span>325 Grand Ave <br> 90245 El Segundo</span></div>" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+
+      </div>
+
+        <div class="large-6 columns" style="line-height:2em;">
+          <h5>Summary goes here</h5>
+          <hr>
+          <h4 style="float: left;"><img src="img/bullet-header.png"><strong>Where:</strong> El Segundo Scout House 325 Grand Ave, El Segundo 90245 CA</h4>
+          <br>
+          <br>
+
+          <h4 style="float: left;"><img src="img/bullet-header.png"><strong>When:</strong> Tuesday April 15th</h4>
+          <br>
 
         </div>
-
-      <div class="panel" style="line-height:2em;">
-        <p style="float: left;"><img src="img/bullet-header.png"><strong>Where:</strong> El Segundo Scout House 325 Grand Ave, El Segundo 90245 CA</p>
-        <br>
-        <br>
-
-        <p style="float: left;"><img src="img/bullet-header.png"><strong>When:</strong> TBA</p>
-        <br>
-
       </div>
-
-      </div>
+    </div>
   </div>
     <!-- Footer -->
  
